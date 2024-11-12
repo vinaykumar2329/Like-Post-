@@ -1,0 +1,29 @@
+body{
+  background-color: seagreen;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background-color: white;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 180px;
+  overflow: hidden;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+i{
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform:translate(-50%,-50%) scale(0);
+  transition: all ease 0.2s;
+  opacity: 0.8;
+
+}
